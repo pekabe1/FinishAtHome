@@ -19,6 +19,7 @@ namespace Store.Models
         public IdentityUser User { get; set; }
 
         public bool IsCommited { get; set; }
+        public bool DeletedByUser { get; set; }
 
 
 

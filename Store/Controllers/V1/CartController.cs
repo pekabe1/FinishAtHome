@@ -36,6 +36,12 @@ namespace Store.Controllers
             return Ok(response);
 
         }
+
+        [HttpGet(ApiRoutes.Cart.GetCartItems)]
+        public async Task<IActionResult> GetCartItems([FromQuery] CartRequest cartRequest)
+        {
+
+        }
     }
 }
 
